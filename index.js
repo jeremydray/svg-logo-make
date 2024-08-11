@@ -46,24 +46,24 @@ function init() {
 
             fs.writeFile('./output/logo.svg', JSON.parse(shapeRender), (error) =>
                 error ? console.error(error) : console.log('Success!'))
-
-
-            // Previous code; was repetitive, so the more consolidated version was used
-
-            // if (selectedShape === 'Square') {
-            //     const square1 = JSON.stringify(new Square(selectedText.toUpperCase(), selectedTextColor, selectedShapeColor).render());
-            //     fs.writeFile('./examples/logo.svg', JSON.parse(square1), (error) =>
-            //         error ? console.error(error) : console.log('Success!'))
-            // } else if (selectedShape === 'Triangle') {
-            //     const triangle1 = JSON.stringify(new Triangle(selectedText.toUpperCase(), selectedTextColor, selectedShapeColor).render());
-            //     fs.writeFile('./examples/logo.svg', JSON.parse(triangle1), (error) =>
-            //         error ? console.error(error) : console.log('Success!'))
-            // } else {
-            //     const circle1 = JSON.stringify(new Circle(selectedText.toUpperCase(), selectedTextColor, selectedShapeColor).render());
-            //     fs.writeFile('./examples/logo.svg', JSON.parse(circle1), (error) =>
-            //         error ? console.error(error) : console.log('Success!'))
-
         })
 }
+
+// Previous code to render and write code to file; was repetitive, so the more consolidated version was used
+
+// if (selectedShape === 'Square') {
+//     const square1 = JSON.stringify(new Square(selectedText.toUpperCase(), selectedTextColor, selectedShapeColor).render());
+//     fs.writeFile('./examples/logo.svg', JSON.parse(square1), (error) =>
+//         error ? console.error(error) : console.log('Success!'))
+// } else if (selectedShape === 'Triangle') {
+//     const triangle1 = JSON.stringify(new Triangle(selectedText.toUpperCase(), selectedTextColor, selectedShapeColor).render());
+//     fs.writeFile('./examples/logo.svg', JSON.parse(triangle1), (error) =>
+//         error ? console.error(error) : console.log('Success!'))
+// } else {
+//     const circle1 = JSON.stringify(new Circle(selectedText.toUpperCase(), selectedTextColor, selectedShapeColor).render());
+//     fs.writeFile('./examples/logo.svg', JSON.parse(circle1), (error) =>
+//         error ? console.error(error) : console.log('Success!'))
+
+
 
 init()

@@ -26,6 +26,10 @@
   </br>
   ![Prompts Sample](/lib/other-files/sample-prompts.png)
   ![Results Sample](/lib/other-files/results.png)
+  </br>
+  </br>
+  Below is a link to a walkthrough video of the application:</br>
+  https://drive.google.com/file/d/1jZqcsRjhbC_R1zeU-99SloVOX1TGM4WD/view
 
   ## 3. Contribution Guidelines
   This project is open source and available for other approved contributions.
