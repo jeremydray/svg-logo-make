@@ -42,8 +42,6 @@ function init() {
                 Square: Square,
             }
 
-            console.log(shapeObj[selectedShape])
-
             const shapeRender = JSON.stringify(new shapeObj[selectedShape](inputs.textName.toUpperCase(), inputs.textColor, inputs.shapeColor).render());
 
             fs.writeFile('./output/logo.svg', JSON.parse(shapeRender), (error) =>
